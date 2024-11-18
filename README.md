@@ -84,10 +84,7 @@ module.exports = {
 kanban-board/
 ├── src/
 │   ├── components/      # Reusable UI components
-│   ├── context/         # Context API for state management
-│   ├── hooks/           # Custom hooks
-│   ├── pages/           # Page components
-│   ├── styles/          # Global styles (includes Tailwind imports)
+│   └── icons        # icons
 │   └── App.tsx          # Main application entry point
 ├── public/              # Static assets
 ├── tailwind.config.js   # Tailwind CSS configuration
