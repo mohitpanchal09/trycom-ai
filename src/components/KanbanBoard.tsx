@@ -95,16 +95,7 @@ function KanbanBoard() {
     setTasks(newTasks);
   }
 
-  function createNewColumn() {
-    const columnToAdd: Column = {
-      id: generateId(),
-      title: `Column ${columns.length + 1}`,
-    };
 
-    setColumns([...columns, columnToAdd]);
-  }
-
- 
 
   function updateTask(id: Id, content: string) {
     const newTask = tasks.map((task) => {
